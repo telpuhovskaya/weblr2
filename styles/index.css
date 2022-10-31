@@ -1,0 +1,63 @@
+ a, a::after {
+    text-decoration: none;
+    color: black;
+ }
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+ .main {
+    display: flex;
+ }
+
+ .leftside {
+    flex: 25%;
+ }
+ .rightside {
+    flex: 75%;
+ }
+
+ .header {
+    text-align: center;
+    font-size: 32px;
+    line-height: 64px;
+    font-weight: 400;
+}
+
+.text {
+    width: 90%;
+    margin: auto;
+    font-size: 24px;
+    line-height: 32px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.flower-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.flowers {
+    display: flex;
+    gap: 10%;
+}
+
+.flower {
+    flex: 33%;
+}
+
+.flower-image {
+    width: 100%;
+
+}
+
+.flo-img > img {
+    width: 200px;
+    height: 260px;
+}
+
+.flo-img{
+    width: 200px;
+    margin: auto;
+}

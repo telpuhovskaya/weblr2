@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+}
+
+.leftside {
+    flex: 45%;
+}
+.rightside {
+    flex: 55%;
+}
+
+.image > img {
+    width: 80%;
+    height:832px;
+}
+
+.flower-header {
+    font-size: 39px;
+}
+
+.flower-text {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 3%;
+}
+
+.flower-header {
+    display: flex;
+}
+
+.flower-header-header {
+    flex: 90%;
+}
